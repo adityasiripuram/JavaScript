@@ -26,11 +26,10 @@ function multiplyByN(arr, n) {
             Output: [3,9,13,165]
         Write you code below
     */
-    var res=[]
     for(let i=0;i<arr.length;i++){
-        res.push(arr[i]*n);
+        arr[i]=(arr[i]*n);
     }
-    return res
+    return arr
 }
 
 function removeNthElement(arr, n) {
