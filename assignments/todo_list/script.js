@@ -13,7 +13,8 @@ add_button.addEventListener('click',function() {
     count=count+1
 
     para.addEventListener('click',function(){
-        para.remove()
+     para.remove()
+        count-=1
     })
 
 })
